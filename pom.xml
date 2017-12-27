@@ -3,29 +3,65 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
+    <!-- Apache Maven - фреймворк, котрый позволяет нам
+        автоматизировать сборку проекта
+
+        На рынке IT 3 платформы:
+        1. Maven
+        2. Gradle
+        3. Ant/Ant+ (уcтаревшая)
+
+        Ключевой вопрос автоматизированной сборки проектов,
+        это обеспечение незавизимости от операционной
+        системы (Кроссплатформенность)
+
+        Maven/Gradle - поддерживаются всеми IDE
+
+        Конфигаруция Maven осуществляется с помощью
+        pom.xml (костантно)-->
+
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- Group ID - параметр объявляет уникальное имя
+                    группы проекта
+         Не обязателен к использованию, если проект
+         не объединяет несколько модулей -->
     <groupId>Pro004</groupId>
 
+    <!-- Artifact ID - параметр обязателен, содержит
+                       уникальное имя проекта-->
     <artifactId>Pro004</artifactId>
 
+    <!-- Упаковка:
+         pom - сборку на уровне IDE
+         jar - сборка проекта и упаковка в JAR-архив
+         war - сборка WEB-проекта -->
     <packaging>pom</packaging>
 
+    <!-- Версия сборки-->
     <version>1.0-SNAPSHOT</version>
 
+    <!-- Добавляем все модули котрые должны быть включены
+         в проект-->
     <modules>
         <module>Pro004_Examples</module>
     </modules>
 
+    <!-- Параметры проекта -->
     <properties>
 
     </properties>
 
+    <!-- Зависимости - в этом блоке добавляем
+         все необходимые библиотеки которые будут
+         необходимы-->
     <dependencies>
 
     </dependencies>
 
+
     <build>
+        <!-- Дополнительные настройки проекта-->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
