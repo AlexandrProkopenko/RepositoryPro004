@@ -33,7 +33,9 @@ public class LANExamClient {
 
         ByteBuffer bf = ByteBuffer.allocate(128);
 
-        bf.put(sms.getBytes());
+        //bf.put(sms.getBytes());
+
+        System.out.println(sms.getBytes());
 
         bf.flip();
 

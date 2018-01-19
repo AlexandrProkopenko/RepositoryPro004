@@ -18,7 +18,7 @@
         Maven/Gradle - поддерживаются всеми IDE
 
         Конфигаруция Maven осуществляется с помощью
-        pom.xml (костантно)-->
+        pom.xml.xml (костантно)-->
 
     <modelVersion>4.0.0</modelVersion>
 
@@ -33,7 +33,7 @@
     <artifactId>Pro004</artifactId>
 
     <!-- Упаковка:
-         pom - сборку на уровне IDE
+         pom.xml - сборку на уровне IDE
          jar - сборка проекта и упаковка в JAR-архив
          war - сборка WEB-проекта -->
     <packaging>pom</packaging>
@@ -45,6 +45,24 @@
          в проект-->
     <modules>
         <module>Pro004_Examples</module>
+        <module>EvgenBoldyr</module>
+        <module>Bachir</module>
+        <module>DmitryvS</module>
+        <module>GolubevDenis</module>
+        <module>GuziyEvgeniy</module>
+        <module>IgorOleynikov</module>
+        <module>Kievprog</module>
+        <module>MaksymSevriukov</module>
+        <module>MhoianRoman</module>
+        <module>MikeSokol</module>
+        <module>OlegMalyshkin</module>
+        <module>ProkopenkoOleksandr</module>
+        <module>SergeyTyshchenko</module>
+        <module>VBadovskii</module>
+        <module>YaroslavVenzhyk</module>
+        <module>ZagorovskyDenis</module>
+        <module>YuriiKahlian</module>
+        <module>SergeySkidan</module>
     </modules>
 
     <!-- Параметры проекта -->

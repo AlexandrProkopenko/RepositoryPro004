@@ -1,4 +1,4 @@
-package concurrencyapi.lesson06;
+package concurrencyapi.lesson06.sync;
 
 import java.util.concurrent.TimeUnit;
 

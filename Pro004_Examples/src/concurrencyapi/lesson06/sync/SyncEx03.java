@@ -1,4 +1,4 @@
-package concurrencyapi.lesson06;
+package concurrencyapi.lesson06.sync;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -25,10 +25,11 @@ public class SyncEx03 {
                     someValue = "ЗапиCCаные даHHые";
                     TimeUnit.MILLISECONDS.sleep(250);
                     System.out.println("Завершение записи данных");
-                    locker.writeLock().unlock();
                     TimeUnit.SECONDS.sleep(3);
             } catch (InterruptedException e) {
                 e.printStackTrace();
+            } finally {
+                locker.writeLock().unlock();
             }
         });
 

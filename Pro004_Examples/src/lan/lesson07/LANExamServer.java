@@ -32,10 +32,12 @@ public class LANExamServer {
 
         int bytes = 0;
         while ((bytes = client.read(bb)) > 0) {
+            //System.out.println(bytes);
             bb.flip();
             System.out.println("Входящее сообщение: "
                 + new String(bb.array(), 0, bytes));
             bb.clear();
+            break;
         }
 
         System.out.println("Завершение работы сервера....");
