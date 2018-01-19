@@ -4,10 +4,9 @@ package javafx.lesson03.listviewex.controller;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
-
-import javafx.lesson03.listviewex.entity.User;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import lesson03.listviewex.entity.User;
 
 
 public class ListViewExController {
