@@ -1,4 +1,4 @@
-package javafx.lesson03.listviewex.entity;
+package lesson03.listviewex.entity;
 
 public class User {
 
