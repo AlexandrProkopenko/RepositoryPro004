@@ -68,14 +68,19 @@
 
     <!-- Параметры проекта -->
     <properties>
-
+        <org.junit.vr>4.12</org.junit.vr>
     </properties>
 
     <!-- Зависимости - в этом блоке добавляем
          все необходимые библиотеки которые будут
          необходимы-->
     <dependencies>
-
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${org.junit.vr}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 
