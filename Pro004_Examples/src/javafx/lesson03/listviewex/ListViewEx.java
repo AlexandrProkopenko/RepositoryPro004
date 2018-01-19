@@ -1,4 +1,4 @@
-package javafx.lesson03.listviewex;
+package lesson03.listviewex;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
